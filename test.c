@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include "test.h"
 
+// function to swap two integer numbers
 void swap(int* a, int* b) {
     int temp = *a;
     *a = *b;
