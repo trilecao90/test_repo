@@ -13,6 +13,7 @@ void sayHello() {
     printf("Hello world!\n");
 }
 
+// main function
 int main() {
     int a = 5;
     int b = 3;
