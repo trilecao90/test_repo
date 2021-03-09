@@ -17,9 +17,11 @@ void sayHello() {
 int main() {
     int a = 5;
     int b = 3;
+    int c = 7;
     sayHello();
     printf("Before: a=%d b=%d \n", a, b);
     swap(&a, &b);
+    swap(&a, &c);
     printf("After : a=%d b=%d \n", a, b);
     return 0;
 }
