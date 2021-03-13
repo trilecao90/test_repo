@@ -29,6 +29,10 @@ int div(int a, int b) {
     return a/b;
 }
 
+int mod(int a, int b) {
+    return a%b;
+}
+
 // main function
 int main() {
     int a = 3;
@@ -41,5 +45,6 @@ int main() {
     printf("Sub of a and b = %d\n", sub(a, b));
     printf("Mul of a and b = %d\n", mul(a, b));
     printf("Div of a and b = %d\n", div(a, b));
+    printf("Mod of a and b = %d\n", mod(a, b));
     return 0;
 }
