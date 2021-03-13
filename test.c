@@ -17,6 +17,10 @@ int sum(int a, int b) {
     return a+b;
 }
 
+int sub(int a, int b) {
+    return a-b;
+}
+
 // main function
 int main() {
     int a = 5;
@@ -26,5 +30,6 @@ int main() {
     swap(&a, &b);
     printf("After : a=%d b=%d \n", a, b);
     printf("Sum of a and b = %d\n", sum(a, b));
+    printf("Sub of a and b = %d\n", sub(a, b));
     return 0;
 }
