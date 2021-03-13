@@ -25,10 +25,14 @@ int mul(int a, int b) {
     return a*b;
 }
 
+int div(int a, int b) {
+    return a/b;
+}
+
 // main function
 int main() {
-    int a = 5;
-    int b = 3;
+    int a = 3;
+    int b = 6;
     sayHello();
     printf("Before: a=%d b=%d \n", a, b);
     swap(&a, &b);
@@ -36,5 +40,6 @@ int main() {
     printf("Sum of a and b = %d\n", sum(a, b));
     printf("Sub of a and b = %d\n", sub(a, b));
     printf("Mul of a and b = %d\n", mul(a, b));
+    printf("Div of a and b = %d\n", div(a, b));
     return 0;
 }
