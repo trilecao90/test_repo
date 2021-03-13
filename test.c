@@ -13,6 +13,10 @@ void sayHello() {
     printf("Hello world!\n");
 }
 
+int sum(int a, int b) {
+    return a+b;
+}
+
 // main function
 int main() {
     int a = 5;
@@ -21,5 +25,6 @@ int main() {
     printf("Before: a=%d b=%d \n", a, b);
     swap(&a, &b);
     printf("After : a=%d b=%d \n", a, b);
+    printf("Sum of a and b = %d\n", sum(a, b));
     return 0;
 }
