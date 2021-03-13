@@ -13,22 +13,27 @@ void sayHello() {
     printf("Hello world!\n");
 }
 
+// sum function
 int sum(int a, int b) {
     return a+b;
 }
 
+// sub function
 int sub(int a, int b) {
     return a-b;
 }
 
+// mul function
 int mul(int a, int b) {
     return a*b;
 }
 
+// div function
 int div(int a, int b) {
     return a/b;
 }
 
+// mod function
 int mod(int a, int b) {
     return a%b;
 }
