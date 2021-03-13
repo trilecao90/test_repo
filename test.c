@@ -21,6 +21,10 @@ int sub(int a, int b) {
     return a-b;
 }
 
+int mul(int a, int b) {
+    return a*b;
+}
+
 // main function
 int main() {
     int a = 5;
@@ -31,5 +35,6 @@ int main() {
     printf("After : a=%d b=%d \n", a, b);
     printf("Sum of a and b = %d\n", sum(a, b));
     printf("Sub of a and b = %d\n", sub(a, b));
+    printf("Mul of a and b = %d\n", mul(a, b));
     return 0;
 }
